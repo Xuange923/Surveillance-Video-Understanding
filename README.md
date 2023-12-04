@@ -102,6 +102,24 @@ To better understand the dataset and the experimental outcomes, the following vi
 4. **MAD Captioning Results**: Examples of different video captioning results.
     [![fig-mad.jpg](https://i.postimg.cc/V5PPFTWt/fig-mad.jpg)](https://postimg.cc/kRsHJTZM)
 
+## Original UCF-Crime Dataset Reference
+
+Our UCA dataset is built upon the foundational UCF-Crime dataset. For those interested in exploring the original data, the UCF-Crime dataset can be downloaded directly from this link: [Download zip](http://www.crcv.ucf.edu/data1/chenchen/UCF_Crimes.zip).
+
+Additionally, further details about the UCF-Crime project are available on their official website: [Visit here](https://www.crcv.ucf.edu/research/real-world-anomaly-detection-in-surveillance-videos/).
+
+If you wish to reference the UCF-Crime dataset in your work, please cite the following paper:
+```
+@inproceedings{sultani2018real,
+  title={Real-world anomaly detection in surveillance videos},
+  author={Sultani, Waqas and Chen, Chen and Shah, Mubarak},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={6479--6488},
+  year={2018}
+}
+```
+Each annotation in our UCA dataset is associated with a corresponding video in the original UCF-Crime dataset. Users interested in this dataset can easily match the videos to the annotation information after downloading.
+
 ## Usage and Contact
 
 Our dataset is exclusively available for academic and research purposes. Please feel free to contact the original authors for inquiries, suggestions, or collaboration proposals.
