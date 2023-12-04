@@ -12,6 +12,18 @@ In addition to constructing this comprehensive dataset, we benchmark SOTA models
 
 ## Dataset Description
 
+### Comparative Analysis with Other Video Datasets
+The following table provides a statistical comparison between the UCA dataset and other traditional video datasets in multimodal learning tasks. Our dataset is specifically designed for the surveillance domain, featuring the longest average word count per sentence.
+
+![tab-1.png](https://s2.loli.net/2023/12/04/pu2UQBCXsPYxikF.png)
+
+### Quality and Fairness Assurance
+During the video collection process for UCA, we conducted a meticulous screening of the original UCF-Crime dataset to filter out videos of lower quality. This ensures the quality and fairness of our UCA dataset. The low-quality videos identified had issues like repetitions, severe obstructions, or excessively fast playback speeds, which impeded the clarity of manual annotations and the precision of event time localization.
+
+Consequently, we removed 46 videos from the original UCF-Crime dataset, resulting in a total of 1,854 videos for UCA. The data split in UCA is outlined in the table below.
+
+![tab-2.png](https://s2.loli.net/2023/12/04/TwCVjQvGf5PmU6H.png)
+
 ### Format Explanation
 
 The UCA dataset is available in two formats: `txt` and `json`.
@@ -35,15 +47,14 @@ The UCA dataset is available in two formats: `txt` and `json`.
   }
   ```
 
+**Annotation Examples**: The following image shows fine-grained sentence queries and their corresponding timing in our UCA dataset.
+   [![fig-visual.jpg](https://i.postimg.cc/ZqyVxR0W/fig-visual.jpg)](https://postimg.cc/R347Mv7m)
+
 ### Data Folders
 
 - `txt`: Contains annotation data in txt format.
 - `json`: Contains annotation data in json format.
 - `txt_mask`: Contains gender-neutral annotation data.
-
-### License
-
-The dataset is available under the Apache-2.0 license.
 
 ## Experiment Tasks
 
@@ -66,10 +77,8 @@ For each task, multiple models were evaluated. Here, we present some experiment 
    [![ex-vc.png](https://i.postimg.cc/br2bS6TW/ex-vc.png)](https://postimg.cc/RJ4qjL2L)
    
 3. **Result of DVC**:
-   
 
-  [![ex-dvc.png](https://i.postimg.cc/MTfb1KZ9/ex-dvc.png)](https://postimg.cc/5Y1CVJCz)
-
+  ![tab-2.png](https://s2.loli.net/2023/12/04/TwCVjQvGf5PmU6H.png)
 
 4. **Result of MAD**: 
    
@@ -80,21 +89,29 @@ For each task, multiple models were evaluated. Here, we present some experiment 
 
 To better understand the dataset and the experimental outcomes, the following visualizations are included:
 
-1. **Annotation Examples**: Fine-grained sentence queries and corresponding timing in our UCA dataset.
-   [![fig-visual.jpg](https://i.postimg.cc/ZqyVxR0W/fig-visual.jpg)](https://postimg.cc/R347Mv7m)
 
-2. **TSGV Visualization**: Example by MMN.
+1. **TSGV Visualization**: Example by MMN.
    [![fig-tsgv-2.jpg](https://i.postimg.cc/mhfbhhc7/fig-tsgv-2.jpg)](https://postimg.cc/Mf5kF6mG)
 
-3. **VC Visualization**: Example by SwinBert.
+2. **VC Visualization**: Example by SwinBert.
     [![fig-vc.jpg](https://i.postimg.cc/pVqj6Hwk/fig-vc.jpg)](https://postimg.cc/K4341dvg)
 
-4. **DVC Visualization**: Example by PDVC.
+3. **DVC Visualization**: Example by PDVC.
    [![fig-dvc.jpg](https://i.postimg.cc/wjd95twr/fig-dvc.jpg)](https://postimg.cc/QH0LhMGg)
 
-5. **MAD Captioning Results**: Examples of different video captioning results.
+4. **MAD Captioning Results**: Examples of different video captioning results.
     [![fig-mad.jpg](https://i.postimg.cc/V5PPFTWt/fig-mad.jpg)](https://postimg.cc/kRsHJTZM)
 
 ## Usage and Contact
 
 Our dataset is exclusively available for academic and research purposes. Please feel free to contact the original authors for inquiries, suggestions, or collaboration proposals.
+
+### License
+The dataset is available under the Apache-2.0 license.
+
+### Cite Our Work
+
+```
+@inproceedings{
+}
+```
