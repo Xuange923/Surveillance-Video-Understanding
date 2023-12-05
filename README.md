@@ -130,6 +130,12 @@ The dataset is available under the Apache-2.0 license.
 ### Cite Our Work
 
 ```
-@inproceedings{
+@misc{yuan2023surveillance,
+      title={Towards Surveillance Video-and-Language Understanding: New Dataset, Baselines, and Challenges}, 
+      author={Tongtong Yuan and Xuange Zhang and Kun Liu and Bo Liu and Chen Chen and Jian Jin and Zhenzhen Jiao},
+      year={2023},
+      eprint={2309.13925},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
