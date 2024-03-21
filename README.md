@@ -1,6 +1,6 @@
 # UCA_dataset
 
-This is the official project page of the paper "Towards Surveillance Video-and-Language Understanding: New Dataset, Baselines, and Challenges"
+This is the official project page of the paper **"Towards Surveillance Video-and-Language Understanding: New Dataset, Baselines, and Challenges"(CVPR 2024)**
 
 ## Project Overview
 
